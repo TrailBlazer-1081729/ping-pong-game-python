@@ -25,7 +25,7 @@ ping-pong-game-python/
 ├── ball.py
 ├── scoreboard.py
 ├── README.md
-└── screenshot.png
+└── gameplay.gif
 ```
 
 ## How to Run
