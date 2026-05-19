@@ -57,7 +57,7 @@ python main.py
 
 ## Preview
 
-![Game Screenshot](screenshot.png)
+![Game Preview](gameplay.gif)
 
 ## What I Learned
 
