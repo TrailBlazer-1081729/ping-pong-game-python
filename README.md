@@ -1,62 +1,75 @@
-\# Ping Pong Game
+# Ping Pong Game
 
+A classic two-player Ping Pong game built using Python and Turtle graphics.
 
+## Features
 
-A classic Ping Pong game built using Python and Turtle graphics.
+* Two-player paddle controls
+* Ball movement and collision detection
+* Real-time score tracking
+* Increasing ball speed during gameplay
+* Clean object-oriented structure
 
+## Tech Stack
 
+* Python
+* Turtle Graphics
 
-\## Features
+## Project Structure
 
-\- Two-player gameplay
-
-\- Ball collision mechanics
-
-\- Paddle controls
-
-\- Score tracking
-
-\- Increasing game speed
-
-
-
-\## Tech Stack
-
-\- Python
-
-\- Turtle Graphics
-
-
-
-\## How to Run
-
-
-
-```bash
-
-python main.py
-
+```text
+ping-pong-game-python/
+│
+├── main.py
+├── paddle.py
+├── ball.py
+├── scoreboard.py
+├── README.md
+└── screenshot.png
 ```
 
+## How to Run
 
+1. Clone the repository
 
-\## Controls
+```bash
+git clone https://github.com/TrailBlazer-1081729/ping-pong-game-python.git
+```
 
+2. Move into the project directory
 
+```bash
+cd ping-pong-game-python
+```
 
-| Player | Keys |
+3. Run the game
 
-|---|---|
+```bash
+python main.py
+```
 
-| Left Paddle | W / S |
+## Controls
 
-| Right Paddle | Up / Down |
+| Player       | Controls              |
+| ------------ | --------------------- |
+| Left Paddle  | W / S                 |
+| Right Paddle | Up Arrow / Down Arrow |
 
+## Preview
 
+![Game Screenshot](screenshot.png)
 
-\## Preview
+## What I Learned
 
+* Object-oriented programming in Python
+* Managing multiple game objects
+* Collision detection logic
+* Event handling using Turtle graphics
+* Structuring Python projects cleanly
 
+## Future Improvements
 
-(Add screenshot here later)
-
+* Single-player AI mode
+* Sound effects
+* Pause and restart functionality
+* Improved graphics and animations
